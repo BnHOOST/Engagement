@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>محمد & أسماء — حكاية خطوبتنا</title>
+  <meta name="description" content="حكاية خطوبة م. محمد عادل و د. أسماء الجميل — 23 أكتوبر 2026">
+  <meta name="theme-color" content="#FBF6EE">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">انتقل إلى المحتوى</a>
+
+  <!-- Opening veil -->
+  <div class="veil" id="veil" aria-hidden="true">
+    <div class="veil__seal">
+      <span class="veil__mono">م</span>
+      <span class="veil__amp">&</span>
+      <span class="veil__mono">أ</span>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <header class="topbar" id="topbar">
+    <a class="topbar__mono" href="#home" aria-label="محمد & أسماء">
+      <span>M</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span>A</span>
+    </a>
+    <nav class="topbar__nav" aria-label="Primary">
+      <a href="#story" data-i18n="nav.story">حكايتنا</a>
+      <a href="#gallery" data-i18n="nav.gallery">الصور</a>
+      <a href="#film" data-i18n="nav.video" data-video-link>لحظاتنا</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" data-i18n-aria="lang.label" aria-label="Switch to English">
+      <span data-i18n="lang.toggle">English</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hamd">
+      <div class="petals" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="kicker reveal" data-i18n="hero.kicker">خطوبة</p>
+
+          <svg class="flourish reveal" viewBox="0 0 240 24" aria-hidden="true">
+            <path d="M4 12h86M150 12h86"/>
+            <path d="M120 3c-6 0-9 4-9 9s3 9 9 9 9-4 9-9-3-9-9-9z"/>
+            <path d="M120 7l3 5-3 5-3-5z" class="fill"/>
+            <path d="M90 12c8-6 14-6 21 0M129 12c7-6 13-6 21 0M90 12c8 6 14 6 21 0M129 12c7 6 13 6 21 0"/>
+          </svg>
+
+          <h1 class="hamd" id="hamd">
+            <span class="hamd__1 reveal" data-i18n-html="hero.hamd1">الحمدُ لله حمدًا كثيرًا طيّبًا مباركًا فيه</span>
+            <span class="hamd__2 reveal" data-i18n-html="hero.hamd2">الحمدُ لله الذي رزقني بمن أرجو أن تكون لي <em>زوجةً وسكنًا ومودّةً ورحمة</em></span>
+          </h1>
+          <div class="hamd__translation reveal" lang="en" dir="ltr">
+            <p data-i18n="hero.translation1"></p>
+            <p data-i18n="hero.translation2"></p>
+          </div>
+
+          <div class="names reveal">
+            <div class="names__person">
+              <span class="names__first" data-i18n="hero.groom">محمد</span>
+              <span class="names__full" data-i18n="hero.groomTitle">م. محمد عادل</span>
+            </div>
+            <span class="names__heart" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+            </span>
+            <div class="names__person">
+              <span class="names__first" data-i18n="hero.bride">أسماء</span>
+              <span class="names__full" data-i18n="hero.brideTitle">د. أسماء جميل</span>
+            </div>
+          </div>
+
+          <p class="hero__date reveal">
+            <span data-i18n="hero.date">الجمعة 23 أكتوبر 2026</span>
+            <span class="dot" aria-hidden="true">✦</span>
+            <span data-i18n="hero.hijri">12 جمادى الأولى 1448 هـ</span>
+          </p>
+        </div>
+
+        <figure class="arch reveal">
+          <div class="arch__frame">
+            <img id="heroImg" data-photo="hero" alt="" data-i18n-alt="hero.photoAlt" width="900" height="1200" fetchpriority="high">
+          </div>
+          <svg class="arch__line" viewBox="0 0 300 400" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M8 396V150C8 72 72 8 150 8s142 64 142 142v246z"/>
+          </svg>
+        </figure>
+      </div>
+
+      <a class="scroll-cue" href="#verse">
+        <span data-i18n="hero.scroll">تابع الحكاية</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ============ VERSE ============ -->
+    <section class="verse" id="verse" aria-label="آية">
+      <div class="verse__card reveal">
+        <svg class="verse__ornament" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M32 4l7 14 14-7-7 14 14 7-14 7 7 14-14-7-7 14-7-14-14 7 7-14-14-7 14-7-7-14 14 7z"/>
+          <circle cx="32" cy="32" r="8"/>
+        </svg>
+        <blockquote>
+          <p class="verse__text" lang="ar" dir="rtl" data-i18n="verse.text"></p>
+          <p class="verse__translation" lang="en" dir="ltr" data-i18n="verse.translation"></p>
+          <footer data-i18n="verse.ref">سورة الروم · الآية 21</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============ COUNTERS ============ -->
+    <section class="counters" aria-labelledby="countTitle">
+      <h2 class="sr-only" id="countTitle" data-i18n="count.title">أيامٌ تُعدّ بالقلب</h2>
+      <ul class="counters__list">
+        <li class="counter reveal">
+          <span class="counter__num" data-count-from="firstMeeting">0</span>
+          <span class="counter__label" data-i18n="count.since">يومًا منذ الرؤية الشرعية</span>
+        </li>
+        <li class="counter counter--accent reveal">
+          <span class="counter__num" data-count-from="engagement">0</span>
+          <span class="counter__label" data-i18n="count.engaged">يومًا منذ الخطوبة</span>
+        </li>
+        <li class="counter reveal">
+          <span class="counter__num" data-count-static="2">2</span>
+          <span class="counter__label" data-i18n="count.chapters">فصلان قادمان بإذن الله</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ STORY / TIMELINE ============ -->
+    <section class="story" id="story" aria-labelledby="storyTitle">
+      <header class="section-head reveal">
+        <p class="kicker" data-i18n="story.kicker">من أول نظرة إلى خاتم ووعد</p>
+        <h2 class="section-title" id="storyTitle" data-i18n="story.title">حكايتنا</h2>
+        <p class="section-lead" data-i18n="story.lead"></p>
+      </header>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline__rail" aria-hidden="true"><span class="timeline__fill"></span></div>
+        <ol class="timeline__list" id="timelineList"><!-- rendered by main.js --></ol>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery" aria-labelledby="galleryTitle">
+      <header class="section-head reveal">
+        <p class="kicker" data-i18n="gallery.kicker">ألبوم الذكريات</p>
+        <h2 class="section-title" id="galleryTitle" data-i18n="gallery.title">لحظاتٌ لا تُنسى</h2>
+        <p class="section-lead" data-i18n="gallery.lead"></p>
+      </header>
+      <div class="gallery__grid" id="galleryGrid"><!-- rendered by main.js --></div>
+    </section>
+
+    <!-- ============ FILM ============ -->
+    <section class="film" id="film" aria-labelledby="filmTitle" hidden>
+      <header class="section-head reveal">
+        <p class="kicker" data-i18n="video.kicker">شريط الذكريات</p>
+        <h2 class="section-title" id="filmTitle" data-i18n="video.title">من يوم الخطوبة</h2>
+      </header>
+      <div class="film__frame reveal">
+        <video id="filmVideo" controls playsinline preload="metadata"></video>
+      </div>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="closing" aria-labelledby="closingDua">
+      <div class="closing__inner reveal">
+        <svg class="flourish" viewBox="0 0 240 24" aria-hidden="true">
+          <path d="M4 12h86M150 12h86"/>
+          <path d="M120 3c-6 0-9 4-9 9s3 9 9 9 9-4 9-9-3-9-9-9z"/>
+          <path d="M120 7l3 5-3 5-3-5z" class="fill"/>
+          <path d="M90 12c8-6 14-6 21 0M129 12c7-6 13-6 21 0M90 12c8 6 14 6 21 0M129 12c7 6 13 6 21 0"/>
+        </svg>
+        <p class="closing__dua" id="closingDua" data-i18n="close.dua"></p>
+        <p class="closing__amen" data-i18n="close.amen">آمين</p>
+        <p class="closing__line" data-i18n="close.line"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__names">
+      <span data-i18n="hero.groomTitle">م. محمد عادل</span>
+      <span class="amp" aria-hidden="true">&</span>
+      <span data-i18n="hero.brideTitle">د. أسماء الجميل</span>
+    </p>
+    <p class="footer__meta"><span data-i18n="footer.made"></span> · 23.10.2026</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button class="lightbox__btn lightbox__close" type="button" data-lb="close" data-i18n-aria="lightbox.close" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox__btn lightbox__prev" type="button" data-lb="prev" data-i18n-aria="lightbox.prev" aria-label="الصورة السابقة">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img id="lightboxImg" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__next" type="button" data-lb="next" data-i18n-aria="lightbox.next" aria-label="الصورة التالية">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
